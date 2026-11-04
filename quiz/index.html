@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section id="home" class="hidden">
+
+    <header class="head">Quiz Rush</header>
+
+
+    <main> 
+        <h1 class="n">10 QUESTIONS • MIXED TOPICS • BEAT THE CLOCK</h1>
+        <div class="b">
+        <a class="but1" id="b1" >Play now</a>
+        <a class="but2" id="b2">Statistics</a>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="cards">
+            <div class="card">
+                <div class="icon">&#129513;</div>
+                <h2>Think Fast</h2>
+                <p class="bbb">10 seconds per question.Answer Fast </p>
+            </div>
+            <div class="card">
+                <div class="icon">&#128202;</div>  
+                <h2>Track your stats </h2>
+                <p class="bbb">Every game is saved automatically. 
+               Check your results and watch your progress grow </p>
+            </div>
+            <div class="card">
+                <div class="icon">&#127942;</div>
+                <h2>Improve Every Day</h2>
+                <p class="bbb">Play daily, break your own record and get better each time.</p>
+            </div>
+        </div>
+
+        <p class="fot">One game per day • Free to play • Become better every day</p>
+    </footer>
+    </section>
+    
+    
+    
+    <section id="players" class="hidden">
+        <header class="game">
+            <div class="gm">
+                <h3 id="question">Number of players</h3>
+            
+
+            </div>
+        <main>
+            <div class="nev">
+            <a id="p1" class="but3" >1 player</a>
+            <a id="p2"class="but4" >2 player</a>
+            <a id="p3" class="but5" >3 player</a>
+            <a id="p4" class="but6" >4 player</a>
+            </div>
+        </main>
+        </header>
+            <a class="but7" id="b3">Next</a>
+            <a class="back1" id="back">Previous</a>
+    </section>
+    
+    
+    
+<section id="stats" class="hidden">
+        <header class="headst">Statistics</header>
+        <main class="mainst">Game results
+            <h2 id="winner-text" style="color: rgb(255, 234, 0); text-align: center; margin-bottom: 20px;"></h2>
+            <div class="statbd">
+                    <p>PLayer 1: <span id="score1">0</span></p>
+                    <p>PLayer 2: <span id="score2">0</span></p>
+                    <p>PLayer 3: <span id="score3">0</span></p>
+                    <p>PLayer 4: <span id="score4">0</span></p>
+            </div>
+        </main>
+        
+        
+        <a id="go-review" class="back" style="cursor: pointer; margin: 20px auto; display: block; text-align: center;">Check Answers</a>
+        
+
+        <a id="back1" class="back">Previous</a>
+    </section>
+
+
+    <section id="review" class="hidden">
+        <header class="headst">Answer Review</header>
+        <main class="mainst" id="review-board" style="overflow-y: auto; max-height: 60vh; text-align: left; padding: 20px; font-size: 14px;">
+
+        </main>
+        <a id="back-to-stats" class="back" style="cursor: pointer;">Back to Stats</a>
+    </section>
+
+    
+
+    <section id="qs" class="hidden">
+        <header class="game">
+            <div class="gm">
+                <h3 id="question">Type of questions</h3>
+            
+
+            </div>
+        <main>
+            <div class="nev">
+                <a id="css" class="but3" >Css</a>
+                <a id="html" class="but4" >Html</a>
+                <a id="js" class="but5" >Java Script</a>
+                <a id="mix" class="but6" >Mixed</a>
+            </div>
+        </main>
+    </header>
+        <a id="q3" class="bt1" >3 questions per player</a>
+        <a id="q4" class="bt2" >4 questions per player</a>
+        <a id="q5" class="bt3" >5 questions per player</a> 
+        <a class="but9" id="b4">Next</a>
+        <a id="back2" class="back2">Previous</a>
+    </section>
+
+
+
+    <section id="game" class="hidden">
+        <header class="game">
+            <div class="gm">
+                <h4 id="cur-plr"> Player 1 turn</h4>  
+                <h3 id="question1" class="qqq">Question</h3>
+                <div id="timer" class="time">10</div>  
+            </div>
+        <main>
+            <div class="nev">
+                <a id="ans1" class="but3" >Answer 1</a>
+                <a id="ans2" class="but4" >Answer 2</a>
+                <a id="ans3" class="but8" >Answer 3</a>
+                <a id="ans4" class="but6" >Answer 4</a>
+            </div>
+        </main>
+    </header>
+    <button id="sbm-but" class="back3" disabled>Submit</button>
+    </section>        
+        <script src="scr.js"></script>
+</body>
+</html>

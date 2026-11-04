@@ -1,0 +1,676 @@
+.head{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 234, 0);
+}
+
+body{
+    background-image: url(1.jpg) ;
+    background-size: cover;
+    margin: 100px ;
+    padding: 15px;
+
+}
+
+.n{
+    color: rgba(104, 104, 100, 0.614);
+    text-align: center;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.a{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 80px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.but1{
+    color:rgb(15, 15, 15);
+    padding: 14px 50px;
+    border-radius: 40px;
+    background-color: rgb(255, 234, 0);
+    font-size: 20px;
+    transition: 0.5s ease;
+    text-decoration: none;
+} 
+
+
+.but2{
+    text-decoration: none;
+    color:rgb(0, 206, 242);
+    padding: 14px 50px;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+    border: 1px solid;
+    border-color:rgb(0, 206, 242);
+}
+
+.but2:hover{
+    background-color: transparent;
+}
+
+.but1:hover{
+    transform: scale(1.1);
+}
+
+
+.b{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+
+
+h2{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.icon{
+    font-size: 50px;
+}
+
+.fot{
+    color: rgba(104, 104, 100, 0.42);
+    text-align: center;
+    margin-top: 115px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgba(246, 249, 251, 0.285);
+}
+
+
+.bbb{
+
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: rgba(246, 249, 251, 0.285);
+  
+}
+
+.hidden{
+    display: none;
+    text-decoration: none;
+}
+
+
+
+
+
+section{
+    color: aliceblue;
+    
+}
+
+.back1{
+    margin-bottom: 100px;
+}
+
+
+
+.card{
+    font-size: 18px;
+    padding: 50px 50px;
+    border-radius: 16px;
+    background-color: rgba(10, 15, 30, 0.7);
+    margin-top: 60px;
+    color: aliceblue;
+    text-align: center;
+    flex: 1;
+    max-width: 250px;
+    max-height: 215px;
+    margin-top: 0 auto;
+}
+
+
+
+
+.but3{
+    border-radius: 20px;
+    background-color: rgba(10, 15, 30, 0.7);
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+    border: 1px solid rgb(0, 206, 242);
+    color: rgb(255, 234, 0);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    flex: 1;
+    max-width: 330px;
+    height: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selected{
+    background-color: transparent;
+}
+
+.but3:hover{
+    background-color: transparent;
+}
+
+.but4{
+    border-radius: 20px;
+    background-color: rgba(10, 15, 30, 0.7);
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+    border: 1px solid rgb(0, 206, 242);
+    color: rgb(255, 234, 0);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    flex: 1;
+    max-width: 330px;
+    height: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.but4:hover{
+    background-color: transparent;
+}
+
+.selected1{
+    background-color: transparent;
+}
+
+.but5{
+    border-radius: 20px;
+    background-color: rgba(10, 15, 30, 0.7);
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+    border: 1px solid rgb(0, 206, 242);
+    color: rgb(255, 234, 0);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    flex: 1;
+    max-width: 330px;
+    height: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.but5:hover{
+    background-color: transparent;
+}
+
+.selected2{
+    background-color: transparent !important;
+}
+
+.but6{
+    border-radius: 20px;
+    background-color: rgba(10, 15, 30, 0.7);
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+    border: 1px solid rgb(0, 206, 242);
+    color: rgb(255, 234, 0);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    flex: 1;
+    max-width: 330px;
+    height: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.but6:hover{
+    background-color: transparent;
+}
+
+.selected3{
+    background-color: transparent;
+}
+
+
+.time{
+    text-align: right;
+}
+
+.gm{
+    font-size: 18px;
+    padding: 20px 50px;
+    border-radius: 16px;
+    background-color: rgba(10, 15, 30, 0.7);
+    margin-top: 60px;
+    color: aliceblue;
+    margin: 0 auto;
+    flex: 1;
+    max-width: 1000px;
+    max-height: 100px;
+    text-align: left;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: rgb(255, 234, 0);
+    justify-content: space-between;
+    display: flex;
+    align-items: center ;
+}
+
+.qqq{
+    text-align: center;
+}
+
+.nev{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    gap: 30px;
+    margin: 20px auto 0;
+    border: 1px solid rgb(0, 206, 242);
+    border-radius: 16px;    
+    padding: 20px;
+    text-align: center;
+    color: rgb(0, 206, 242);
+    grid-auto-rows: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.back1{
+    color:rgb(15, 15, 15);
+    padding: 14px 50px;
+    border-radius: 40px;
+    background-color: rgb(255, 234, 0);
+    font-size: 20px;
+    transition: 0.5s ease;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 40px;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.back1:hover{
+    transform: scale(1.1);
+
+}
+
+.mainst{
+    text-align: center;
+    margin-top: 100px;
+    padding: 50px;
+    border-radius: 16px;
+    background-color: rgba(10, 15, 30, 0.7);
+    max-width: 200px;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 25px;
+    text-align: left;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:  rgb(255, 234, 0);
+}
+
+.headst{
+    text-align: center;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 234, 0);
+}
+
+.back{
+    color:rgb(15, 15, 15);
+    padding: 14px 50px;
+    border-radius: 40px;
+    background-color: rgb(255, 234, 0);
+    font-size: 20px;
+    transition: 0.5s ease;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 40px;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+}
+
+.back:hover{
+    transform: scale(1.1);
+
+}
+
+
+.but7{
+    color:rgb(15, 15, 15);
+    padding: 14px 50px;
+    border-radius: 40px;
+    background-color: rgb(255, 234, 0);
+    font-size: 20px;
+    transition: 0.5s ease;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    gap: 100px;
+    max-width: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.but7:hover{
+    transform: scale(1.1);
+
+}
+
+.back2{
+    color:rgb(15, 15, 15);
+    padding: 14px 50px;
+    border-radius: 40px;
+    background-color: rgb(255, 234, 0);
+    font-size: 20px;
+    transition: 0.5s ease;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 40px;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;     
+}
+
+.back2:hover{
+    transform: scale(1.1);
+
+}
+
+
+.back3{
+    color:rgb(15, 15, 15);
+    padding: 14px 50px;
+    border-radius: 40px;
+    background-color: rgb(255, 234, 0);
+    font-size: 20px;
+    transition: 0.5s ease;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 40px;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;     
+}
+
+.back3:hover{
+    transform: scale(1.1);
+
+}
+
+.but8{
+    padding: 100px 80px;
+    border-radius: 20px;
+    background-color: rgba(10, 15, 30, 0.7);
+    margin-top: 0 auto;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: 150px;
+    text-decoration: none;
+    margin: 0 auto;
+    transition: backgroung-color 0.5s ease;
+    border: 1px solid rgb(0, 206, 242);
+    color: rgb(255, 234, 0);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.but8:hover{
+    background-color: transparent;
+}
+
+.but9{
+    color:rgb(15, 15, 15);
+    padding: 14px 50px;
+    border-radius: 40px;
+    background-color: rgb(255, 234, 0);
+    font-size: 20px;
+    transition: 0.5s ease;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    gap: 100px;
+    max-width: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.but9:hover{
+    transform: scale(1.1);
+
+}
+
+
+.b123{
+    gap: 10px;
+}
+
+.bt1{
+    border-radius: 20px;
+    background-color: rgba(10, 15, 30, 0.7);
+    margin-top: 0 auto;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: 300px;
+    height: 50px;
+    text-decoration: none;
+    margin: 0 auto;
+    transition: backgroung-color 0.5s ease;
+    border: 1px solid rgb(0, 206, 242);
+    color: rgb(255, 234, 0);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.bt1:hover{
+    background-color: transparent;
+}
+
+.bt2{
+    border-radius: 20px;
+    background-color: rgba(10, 15, 30, 0.7);
+    margin-top: 0 auto;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: 300px;
+    height: 50px;
+    text-decoration: none;
+    margin: 0 auto;
+    transition: backgroung-color 0.5s ease;
+    border: 1px solid rgb(0, 206, 242);
+    color: rgb(255, 234, 0);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.bt2:hover{
+    background-color: transparent;
+}
+.bt3{
+    border-radius: 20px;
+    background-color: rgba(10, 15, 30, 0.7);
+    margin-top: 0 auto;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: 300px;
+    height: 50px;
+    text-decoration: none;
+    margin: 0 auto;
+    transition: backgroung-color 0.5s ease;
+    border: 1px solid rgb(0, 206, 242);
+    color: rgb(255, 234, 0);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.bt3:hover{
+    background-color: transparent;
+}
+
+
+
+.s1{
+    background-color: transparent;
+}
+
+.s2{
+    background-color: transparent;
+}
+
+.s3{
+    background-color: transparent;
+}
+
+.s4{
+    background-color: transparent;
+}
+
+.sc1{
+    background-color: transparent;
+}
+
+.sc2{
+    background-color: transparent;
+}
+
+.sc3{
+    background-color: transparent;
+}
+
+
+#review-board {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 95%;
+    max-width: 1400px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+#review-board::-webkit-scrollbar {
+    height: 8px;
+}
+
+#review-board::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2); 
+    border-radius: 10px;
+}
+
+#review-board::-webkit-scrollbar-thumb {
+    background: #ffea00; 
+    border-radius: 10px;
+}
+
+#review-board .review-card {
+    flex: 0 0 160px;
+    width: 160px;
+    min-width: 160px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 11px;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+#review-board .review-card p {
+    font-size: 11px;
+    line-height: 1.2;
+    margin-bottom: 4px;
+}
